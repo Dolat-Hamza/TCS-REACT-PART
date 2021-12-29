@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
 
 const FormPage = () => {
 return (
-<MDBContainer className="form">
+<MDBContainer >
   <h1 className="title">FORM PAGE</h1>
   <MDBRow className="form">
     <MDBCol md="6">
@@ -18,8 +18,8 @@ return (
           Your password
         </label>
         <input type="password" id="defaultFormLoginPasswordEx" className="form-control" />
-        <div className="buttons" className="text-center mt-4">
-          <MDBBtn  type="submit">Login</MDBBtn>
+        <div className="buttons text-center mt-4" >
+          <MDBBtn className="buttonss"  type="submit">Login</MDBBtn>
         </div>
       </form>
     </MDBCol>

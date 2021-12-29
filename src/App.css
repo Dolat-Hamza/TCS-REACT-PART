@@ -16,10 +16,15 @@
 .form{
   justify-content: center;
 }
+.buttonss{
+  color: white;
+}
 
 .buttons{
-  background-color: black;
+  background-color: #dcdcdc;
   color: white;
+  border: black solid ;
+  border-radius: 50px;
 }
 
 .title{
