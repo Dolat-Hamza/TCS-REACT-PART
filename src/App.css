@@ -1,5 +1,33 @@
 .App {
+  text-align: left;
+}
+
+.list{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.item{
+  
+  color: white;
+}
+.form{
+  justify-content: center;
+}
+
+.buttons{
+  background-color: black;
+  color: white;
+}
+
+.title{
   text-align: center;
+  margin-bottom: 200px;
+  background-color: black;
+  color: white;
+  width: 100%;
 }
 
 .App-logo {
